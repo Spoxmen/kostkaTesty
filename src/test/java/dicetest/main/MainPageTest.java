@@ -1,9 +1,9 @@
-package kostkaSelenium.kostka;
+package dicetest.main;
 
 import org.junit.*;
 import org.openqa.selenium.WebDriver;
 
-import kostkaSelenium.kostka.Init;
+import dicetest.main.Init;
 import pageObjects.MainPage;
 
 public class MainPageTest {

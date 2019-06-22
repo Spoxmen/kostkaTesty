@@ -1,4 +1,4 @@
-package kostkaSelenium.kostka;
+package dicetest.main;
 
 import java.io.File;
 import java.io.IOException;
