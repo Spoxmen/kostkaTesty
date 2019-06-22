@@ -16,6 +16,7 @@ public class MainPageTest {
 		driver = Init.getDriver();
 	}
 	
+	@Test
 	public void testStrony() {
 		mp.nwodClicker();
 		mp.ikFiller("5");
@@ -26,6 +27,7 @@ public class MainPageTest {
 	@After
 	public void close() {
 		Init.close();
+		System.out.println("Koniec testu");
 	}
 	
 }

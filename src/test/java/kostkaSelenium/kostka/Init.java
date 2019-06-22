@@ -17,7 +17,7 @@ public class Init {
 
 	public static WebDriver getDriver() {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Łukasz");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Łukasz\\chromedriver.exe");
 		if (driver == null) {
 			driver = new ChromeDriver();
 			driver.get("https://kostka.herokuapp.com/");
