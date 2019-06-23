@@ -16,7 +16,7 @@ public class MainPageTest {
 		driver = Init.getDriver();
 	}
 	
-	@Test
+	@Ignore
 	public void testStrony() {
 		mp.nwodClicker();
 		mp.ikFiller("5");

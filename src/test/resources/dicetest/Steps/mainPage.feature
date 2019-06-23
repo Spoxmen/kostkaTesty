@@ -7,3 +7,4 @@ Feature: Main Page functionality test scenarios
     When I click nwod button
     And i fill IK form with 6
     And click roll button
+    Then i close browser
